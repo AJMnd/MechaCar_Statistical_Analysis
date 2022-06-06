@@ -8,7 +8,7 @@ AutosRU's has a new prototype, the MechaCar, however, they are having production
 
 - The slope of the linear model is not considered to be zero because the p-value in this model is (p-value: 5.35e-11), which is below 0.05%. Which would indicate the rejection of the null hypothesis.  
 
-- The results of the linear regression, can determine that vehicle_weight, spoiler_angle, and AWD p-values are above the 0.05%. The R-squared value is 0.7149 which shows a a minimum of 70% functionality in the linear regression, therefor, able to predict the mpg of this prototype.
+- The results of the linear regression, can determine that vehicle_weight, spoiler_angle, and AWD p-values are above the 0.05%. The R-squared value is 0.7149 which shows a minimum of 70% functionality in the linear regression, therefor, able to predict the mpg of this prototype.
 
 ![](https://github.com/AJMnd/MechaCar_Statistical_Analysis/blob/main/Resources/Linear%20Regression.png)
 
@@ -30,14 +30,17 @@ AutosRU's has a new prototype, the MechaCar, however, they are having production
 ![](https://github.com/AJMnd/MechaCar_Statistical_Analysis/blob/main/Resources/t.test2.png)
 
 
-### Study Design: MechaCar vs Competition 
+## Study Design: MechaCar vs Competition 
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+### Metrics
+- Today, If I was shopping for a car, I would consider power output (gas cars vs electric) & maintenance costs.
 
-- Today, If I was shopping for a car, I would consider safety and fuel effeciency vs Electric options. 
-- HO:
+### Hypothesis
+- HO: Is there a correlation between power output and maintenance costs.
+- Ha: There is no correlation between maintenance costs and power output. 
+
+### Testing
+- P-value to determine the validity of the correlation
+- T-test to compare the correlation
+### Data
+- Vehicle power output and maintenance costs in MechaCar and competitors.
